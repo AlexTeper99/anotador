@@ -15,4 +15,4 @@ app.get('/hola', async function(req, res){
 
 
 //Definir el puerto de escucha
-app.listen(process.env.PORT)
+app.listen(process.env.PORT || 3000, () => console.log("run server PORT " + process.env.PORT))
