@@ -8,7 +8,7 @@ require('dotenv').config()
 //const { Student } = require('./src/db/models');
 
 app.get('/hola', async function(req, res){
-    res.status(201).send('Hola');
+    res.status(201).send('Hola, esto es una app con railway');
 })
 
 
